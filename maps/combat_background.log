@@ -1,0 +1,233 @@
+
+
+
+materialPath: C:\Users\MadKamel\Documents\HL2\hl2\materials
+Loading C:\Users\MadKamel\Documents\HL2\hl2\maps\combat_background.vmf
+material "lights/fluorescentwarm001a" not found.
+Material not found!: LIGHTS/FLUORESCENTWARM001A
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "brick/brickwall015a" not found.
+Material not found!: BRICK/BRICKWALL015A
+material "metal/metalfloor004b" not found.
+Material not found!: METAL/METALFLOOR004B
+material "glass/glasswindow021g" not found.
+Material not found!: GLASS/GLASSWINDOW021G
+Could not locate 'GameData' key in c:\users\madkamel\documents\hl2\hl2\gameinfo.txt
+Patching WVT material: maps/combat_background/nature/blendtoxictoxic002a_wvt_patch
+Patching WVT material: maps/combat_background/nature/blendrockgrass004a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\MadKamel\Documents\HL2\hl2\maps\combat_background.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (167421 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 470 texinfos to 330
+Reduced 42 texdatas to 36 (1039 bytes to 874)
+Writing C:\Users\MadKamel\Documents\HL2\hl2\maps\combat_background.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\users\madkamel\documents\hl2\hl2\maps\combat_background.bsp
+reading c:\users\madkamel\documents\hl2\hl2\maps\combat_background.prt
+ 447 portalclusters
+1495 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 117 visible clusters (0.09%)
+Total clusters visible: 136538
+Average clusters visible: 305
+Building PAS...
+Average clusters audible: 447
+visdatasize:52754  compressed from 50064
+writing c:\users\madkamel\documents\hl2\hl2\maps\combat_background.bsp
+7 minutes, 11 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\madkamel\documents\hl2\hl2\maps\combat_background.bsp
+2184 faces
+1022742 square feet [147274928.00 square inches]
+1 Displacements
+5813 Square Feet [837132.13 Square Inches]
+2184 patches before subdivision
+69744 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 18502927, max 1258
+transfer lists: 141.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(144246, 127542, 60575)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(20487, 16742, 6403)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2408, 1741, 554)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(398, 244, 65)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(76, 38, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(17, 7, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(4, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0415 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 2 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  63/1024         3024/49152    ( 6.2%) 
+brushes                216/8192         2592/98304    ( 2.6%) 
+brushsides            1939/65536       15512/524288   ( 3.0%) 
+planes                2532/65536       50640/1310720  ( 3.9%) 
+vertexes              3261/65536       39132/786432   ( 5.0%) 
+nodes                 1219/65536       39008/2097152  ( 1.9%) 
+texinfos               330/12288       23760/884736   ( 2.7%) 
+texdata                 36/2048         1152/65536    ( 1.8%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples       15670/0           15670/0        ( 0.0%) 
+faces                 2184/65536      122304/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1052/65536       58912/3670016  ( 1.6%) 
+leaves                1283/65536       41056/2097152  ( 2.0%) 
+leaffaces             2560/65536        5120/131072   ( 3.9%) 
+leafbrushes            442/65536         884/131072   ( 0.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            14246/512000      56984/2048000  ( 2.8%) 
+edges                 7584/256000      30336/1024000  ( 3.0%) 
+LDR worldlights          4/8192          352/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             88/32768         880/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1515/65536        3030/131072   ( 2.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1993132/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       52754/16777216 ( 0.3%) 
+entdata               [variable]       50948/393216   (13.0%) 
+LDR ambient table     1283/65536        5132/262144   ( 2.0%) 
+HDR ambient table     1283/65536        5132/262144   ( 2.0%) 
+LDR leaf ambient      3796/65536      106288/1835008  ( 5.8%) 
+HDR leaf ambient      1283/65536       35924/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/11728    ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/666      ( 0.2%) 
+pakfile               [variable]      106861/0        ( 0.0%) 
+physics               [variable]      167421/4194304  ( 4.0%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5542
+Writing c:\users\madkamel\documents\hl2\hl2\maps\combat_background.bsp
+22 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\madkamel\documents\hl2\hl2\maps\combat_background.bsp
+2184 faces
+1022742 square feet [147274928.00 square inches]
+1 Displacements
+5813 Square Feet [837132.13 Square Inches]
+2184 patches before subdivision
+69744 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 18502927, max 1258
+transfer lists: 141.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(139365, 122942, 58899)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(19157, 15637, 6047)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2076, 1518, 496)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(311, 194, 54)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(53, 28, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(11, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0777 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 2 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  63/1024         3024/49152    ( 6.2%) 
+brushes                216/8192         2592/98304    ( 2.6%) 
+brushsides            1939/65536       15512/524288   ( 3.0%) 
+planes                2532/65536       50640/1310720  ( 3.9%) 
+vertexes              3261/65536       39132/786432   ( 5.0%) 
+nodes                 1219/65536       39008/2097152  ( 1.9%) 
+texinfos               330/12288       23760/884736   ( 2.7%) 
+texdata                 36/2048         1152/65536    ( 1.8%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples       15670/0           15670/0        ( 0.0%) 
+faces                 2184/65536      122304/3670016  ( 3.3%) 
+hdr faces             2184/65536      122304/3670016  ( 3.3%) 
+origfaces             1052/65536       58912/3670016  ( 1.6%) 
+leaves                1283/65536       41056/2097152  ( 2.0%) 
+leaffaces             2560/65536        5120/131072   ( 3.9%) 
+leafbrushes            442/65536         884/131072   ( 0.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            14246/512000      56984/2048000  ( 2.8%) 
+edges                 7584/256000      30336/1024000  ( 3.0%) 
+LDR worldlights          4/8192          352/720896   ( 0.0%) 
+HDR worldlights          4/8192          352/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             88/32768         880/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1515/65536        3030/131072   ( 2.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1993132/0        ( 0.0%) 
+HDR lightdata         [variable]     1993132/0        ( 0.0%) 
+visdata               [variable]       52754/16777216 ( 0.3%) 
+entdata               [variable]       50948/393216   (13.0%) 
+LDR ambient table     1283/65536        5132/262144   ( 2.0%) 
+HDR ambient table     1283/65536        5132/262144   ( 2.0%) 
+LDR leaf ambient      3796/65536      106288/1835008  ( 5.8%) 
+HDR leaf ambient      3783/65536      105924/1835008  ( 5.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/11728    ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/666      ( 0.2%) 
+pakfile               [variable]      106861/0        ( 0.0%) 
+physics               [variable]      167421/4194304  ( 4.0%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5542
+Writing c:\users\madkamel\documents\hl2\hl2\maps\combat_background.bsp
+23 seconds elapsed
