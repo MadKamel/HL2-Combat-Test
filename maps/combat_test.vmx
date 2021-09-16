@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8372"
-	"mapversion" "140"
+	"mapversion" "141"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "140"
+	"mapversion" "141"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -15209,82 +15209,6 @@ world
 	}
 	solid
 	{
-		"id" "19619"
-		side
-		{
-			"id" "10044"
-			"plane" "(-4680 7168 368.063) (-4624 7168 368.063) (-4624 7120 368.063)"
-			"material" "TOOLS/TOOLSPLAYERCLIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "10045"
-			"plane" "(-4680 7120 320.063) (-4624 7120 320.063) (-4624 7168 320.063)"
-			"material" "TOOLS/TOOLSPLAYERCLIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "10046"
-			"plane" "(-4680 7168 368.063) (-4680 7120 368.063) (-4680 7120 320.063)"
-			"material" "TOOLS/TOOLSPLAYERCLIP"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "10047"
-			"plane" "(-4624 7168 320.063) (-4624 7120 320.063) (-4624 7120 368.063)"
-			"material" "TOOLS/TOOLSPLAYERCLIP"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "10048"
-			"plane" "(-4624 7168 368.063) (-4680 7168 368.063) (-4680 7168 320.063)"
-			"material" "TOOLS/TOOLSPLAYERCLIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "10049"
-			"plane" "(-4624 7120 320.063) (-4680 7120 320.063) (-4680 7120 368.063)"
-			"material" "TOOLS/TOOLSPLAYERCLIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 213 198"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
 		"id" "20398"
 		side
 		{
@@ -29498,76 +29422,6 @@ entity
 }
 entity
 {
-	"id" "18209"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_ar2"
-	"angles" "0 180 0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"hintlimiting" "0"
-	"ignoreunseenenemies" "0"
-	"model" "models/combine_soldier_prisonguard.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"sleepstate" "0"
-	"spawnflags" "8"
-	"squadname" "third_squad"
-	"tacticalvariant" "1"
-	"targetname" "s3_wilbur"
-	"usemarch" "0"
-	"waitingtorappel" "No"
-	"wakeradius" "0"
-	"wakesquad" "0"
-	"origin" "-4896.48 6960 320"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1000 -15268]"
-	}
-}
-entity
-{
-	"id" "18225"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_ar2"
-	"angles" "0 180 0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"hintlimiting" "0"
-	"ignoreunseenenemies" "0"
-	"model" "models/combine_super_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"sleepstate" "0"
-	"spawnflags" "8"
-	"squadname" "third_squad"
-	"tacticalvariant" "1"
-	"targetname" "s3_rhianna"
-	"usemarch" "0"
-	"waitingtorappel" "No"
-	"wakeradius" "0"
-	"wakesquad" "0"
-	"origin" "-4952 7040.19 320"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1000 -15268]"
-	}
-}
-entity
-{
 	"id" "18363"
 	"classname" "prop_dynamic_override"
 	"angles" "0 0 0"
@@ -30074,41 +29928,6 @@ entity
 }
 entity
 {
-	"id" "19027"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_ar2"
-	"angles" "0 135 0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"hintlimiting" "0"
-	"ignoreunseenenemies" "0"
-	"model" "models/combine_soldier_prisonguard.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"sleepstate" "0"
-	"spawnflags" "8"
-	"squadname" "third_squad"
-	"tacticalvariant" "1"
-	"targetname" "s3_charlie"
-	"usemarch" "0"
-	"waitingtorappel" "No"
-	"wakeradius" "0"
-	"wakesquad" "0"
-	"origin" "-4936 6877.16 320"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1000 -15268]"
-	}
-}
-entity
-{
 	"id" "19485"
 	"classname" "npc_combine_s"
 	"additionalequipment" "weapon_smg1"
@@ -30157,114 +29976,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -16268]"
-	}
-}
-entity
-{
-	"id" "19515"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_ar2"
-	"angles" "0 90 0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"hintlimiting" "0"
-	"ignoreunseenenemies" "0"
-	"model" "models/combine_super_soldier.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"sleepstate" "0"
-	"spawnflags" "8"
-	"squadname" "third_squad"
-	"tacticalvariant" "1"
-	"targetname" "s3_david"
-	"usemarch" "0"
-	"waitingtorappel" "No"
-	"wakeradius" "0"
-	"wakesquad" "0"
-	"origin" "-4991.81 6720.48 320"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1000 -15268]"
-	}
-}
-entity
-{
-	"id" "19567"
-	"classname" "prop_dynamic_override"
-	"angles" "0 218 0"
-	"DisableBoneFollowers" "0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"ExplodeDamage" "0"
-	"ExplodeRadius" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"health" "100"
-	"MaxAnimTime" "10"
-	"maxdxlevel" "0"
-	"MinAnimTime" "5"
-	"mindxlevel" "0"
-	"model" "models/props_wasteland/controlroom_chair001a.mdl"
-	"modelscale" "1.0"
-	"PerformanceMode" "0"
-	"pressuredelay" "0"
-	"RandomAnimation" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"SetBodyGroup" "0"
-	"skin" "0"
-	"solid" "6"
-	"origin" "-4652.41 7137.32 340.28"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 12000]"
-	}
-}
-entity
-{
-	"id" "19764"
-	"classname" "npc_combine_s"
-	"additionalequipment" "weapon_ar2"
-	"angles" "0 90 0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"hintlimiting" "0"
-	"ignoreunseenenemies" "0"
-	"model" "models/combine_soldier_prisonguard.mdl"
-	"NumGrenades" "5"
-	"physdamagescale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"sleepstate" "0"
-	"spawnflags" "8"
-	"squadname" "third_squad"
-	"tacticalvariant" "1"
-	"targetname" "s3_jack"
-	"usemarch" "0"
-	"waitingtorappel" "No"
-	"wakeradius" "0"
-	"wakesquad" "0"
-	"origin" "-4896 6620.48 320"
-	editor
-	{
-		"color" "0 200 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1000 -15268]"
 	}
 }
 entity
@@ -30817,20 +30528,6 @@ entity
 }
 entity
 {
-	"id" "21969"
-	"classname" "info_node"
-	"nodeid" "127"
-	"origin" "-6480 6935 92"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1000 10000]"
-	}
-}
-entity
-{
 	"id" "21971"
 	"classname" "info_node"
 	"nodeid" "128"
@@ -30971,20 +30668,6 @@ entity
 }
 entity
 {
-	"id" "22009"
-	"classname" "info_node"
-	"nodeid" "147"
-	"origin" "-6147 6680 91"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1000 -12768]"
-	}
-}
-entity
-{
 	"id" "22011"
 	"classname" "info_node"
 	"nodeid" "148"
@@ -30995,20 +30678,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 -12268]"
-	}
-}
-entity
-{
-	"id" "22013"
-	"classname" "info_node"
-	"nodeid" "149"
-	"origin" "-5971 6539 103"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1000 -11768]"
 	}
 }
 entity
@@ -31135,20 +30804,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 -6768]"
-	}
-}
-entity
-{
-	"id" "22039"
-	"classname" "info_node"
-	"nodeid" "162"
-	"origin" "-6499 6919 97"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1000 -5268]"
 	}
 }
 entity
@@ -32028,6 +31683,118 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[2000 1500]"
+	}
+}
+entity
+{
+	"id" "22911"
+	"classname" "info_node"
+	"nodeid" "213"
+	"origin" "-6207 6377 88"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2000 2000]"
+	}
+}
+entity
+{
+	"id" "22913"
+	"classname" "info_node"
+	"nodeid" "214"
+	"origin" "-6007 6574 102"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2000 2500]"
+	}
+}
+entity
+{
+	"id" "22915"
+	"classname" "info_node"
+	"nodeid" "215"
+	"origin" "-5935 6509 98"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2000 3000]"
+	}
+}
+entity
+{
+	"id" "22917"
+	"classname" "info_node"
+	"nodeid" "216"
+	"origin" "-5898 6676 145"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2000 3500]"
+	}
+}
+entity
+{
+	"id" "22919"
+	"classname" "info_node"
+	"nodeid" "217"
+	"origin" "-5982 6652 113"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2000 4000]"
+	}
+}
+entity
+{
+	"id" "22921"
+	"classname" "info_node"
+	"nodeid" "218"
+	"origin" "-6154 6709 89"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2000 4500]"
+	}
+}
+entity
+{
+	"id" "22923"
+	"classname" "info_node"
+	"nodeid" "219"
+	"origin" "-6255 6753 88"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2000 5000]"
+	}
+}
+entity
+{
+	"id" "22925"
+	"classname" "info_node"
+	"nodeid" "220"
+	"origin" "-6188 6905 88"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2000 5500]"
 	}
 }
 cameras
